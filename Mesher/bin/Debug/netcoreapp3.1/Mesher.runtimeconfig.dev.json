@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\QUT EAE\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\QUT EAE\\.nuget\\packages"
+    ]
+  }
+}

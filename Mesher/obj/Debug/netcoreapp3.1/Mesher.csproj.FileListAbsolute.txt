@@ -1,0 +1,13 @@
+C:\Users\QUT EAE\source\repos\Mesher\Mesher\bin\Debug\netcoreapp3.1\Mesher.exe
+C:\Users\QUT EAE\source\repos\Mesher\Mesher\bin\Debug\netcoreapp3.1\Mesher.deps.json
+C:\Users\QUT EAE\source\repos\Mesher\Mesher\bin\Debug\netcoreapp3.1\Mesher.runtimeconfig.json
+C:\Users\QUT EAE\source\repos\Mesher\Mesher\bin\Debug\netcoreapp3.1\Mesher.runtimeconfig.dev.json
+C:\Users\QUT EAE\source\repos\Mesher\Mesher\bin\Debug\netcoreapp3.1\Mesher.dll
+C:\Users\QUT EAE\source\repos\Mesher\Mesher\bin\Debug\netcoreapp3.1\Mesher.pdb
+C:\Users\QUT EAE\source\repos\Mesher\Mesher\obj\Debug\netcoreapp3.1\Mesher.csprojAssemblyReference.cache
+C:\Users\QUT EAE\source\repos\Mesher\Mesher\obj\Debug\netcoreapp3.1\Mesher.AssemblyInfoInputs.cache
+C:\Users\QUT EAE\source\repos\Mesher\Mesher\obj\Debug\netcoreapp3.1\Mesher.AssemblyInfo.cs
+C:\Users\QUT EAE\source\repos\Mesher\Mesher\obj\Debug\netcoreapp3.1\Mesher.csproj.CoreCompileInputs.cache
+C:\Users\QUT EAE\source\repos\Mesher\Mesher\obj\Debug\netcoreapp3.1\Mesher.dll
+C:\Users\QUT EAE\source\repos\Mesher\Mesher\obj\Debug\netcoreapp3.1\Mesher.pdb
+C:\Users\QUT EAE\source\repos\Mesher\Mesher\obj\Debug\netcoreapp3.1\Mesher.genruntimeconfig.cache
