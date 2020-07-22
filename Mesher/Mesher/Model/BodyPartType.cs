@@ -8,7 +8,7 @@ namespace Mesher.Model {
 	interface BodyPartType {
 
 		// gen model
-		Mesh GenerateAndModify(List<KeyValuePair<String, ReadableType<object>>> args, List<Mesh> previous, Mesh total);
+		Mesh GenerateAndModify(BodyPart from, List<Mesh> previous, Mesh total);
 
 		// toughness/elasticity/etc at location
 

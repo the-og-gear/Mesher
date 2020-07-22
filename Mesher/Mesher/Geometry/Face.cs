@@ -6,7 +6,15 @@ namespace Mesher.Geometry {
 
 	class Face {
 
-		// clockwise
-		List<Vec3f> vertices;
+		// counterclockwise
+		List<Vec3f> Vertices;
+
+		public Face(List<Vec3f> vertices) {
+			Vertices = vertices;
+		}
+
+		public override string ToString() {
+			return "Face{" + Vertices + "}";
+		}
 	}
 }

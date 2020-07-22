@@ -15,6 +15,6 @@ namespace Mesher.Model {
 			this.args = args;
 		}
 
-		public Mesh GenerateAndModify(List<Mesh> previous, Mesh total) => type.GenerateAndModify(args, previous, total);
+		public Mesh GenerateAndModify(List<Mesh> previous, Mesh total) => type.GenerateAndModify(this, previous, total);
 	}
 }
