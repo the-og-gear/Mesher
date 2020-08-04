@@ -13,6 +13,6 @@ namespace Mesher.Model {
 		// toughness/elasticity/etc at location
 
 		// parameters
-		List<KeyValuePair<String, ReadableType<object>>> Parameters();
+		Dictionary<string, ReadableType<object>> Parameters();
 	}
 }

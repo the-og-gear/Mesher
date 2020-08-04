@@ -15,9 +15,9 @@ namespace Mesher {
 
 			// create some hardcoded bones
 			List<BodyPart> parts = new List<BodyPart> {
-				new BodyPart(new BoneBodyPartType(), new List<KeyValuePair<string, ReadableType<object>>>()),
-				new BodyPart(new BoneBodyPartType(), new List<KeyValuePair<string, ReadableType<object>>>()),
-				new BodyPart(new BoneBodyPartType(), new List<KeyValuePair<string, ReadableType<object>>>())
+				new BodyPart(new BoneBodyPartType(), new Dictionary<string, object>()),
+				new BodyPart(new BoneBodyPartType(), new Dictionary<string, object>()),
+				new BodyPart(new BoneBodyPartType(), new Dictionary<string, object>())
 			};
 			// generate them
 			List<Mesh> previous = new List<Mesh>();

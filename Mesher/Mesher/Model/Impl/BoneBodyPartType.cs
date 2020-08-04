@@ -12,8 +12,8 @@ namespace Mesher.Model.Impl {
 			return new Mesh(from, new List<Face>(){new Face(new List<Vec3f>(){ new Vec3f(0, 0, 0), new Vec3f(1, 0, 0), new Vec3f(1, 1, 0), new Vec3f(0, 1, 0) })});
 		}
 
-		List<KeyValuePair<string, ReadableType<object>>> BodyPartType.Parameters() {
-			return new List<KeyValuePair<string, ReadableType<object>>>();
+		Dictionary<string, ReadableType<object>> BodyPartType.Parameters() {
+			return new Dictionary<string, ReadableType<object>>();
 		}
 	}
 }

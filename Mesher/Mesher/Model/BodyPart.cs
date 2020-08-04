@@ -8,9 +8,9 @@ namespace Mesher.Model {
 	class BodyPart {
 
 		readonly BodyPartType type;
-		readonly List<KeyValuePair<string, ReadableType<object>>> args;
+		public readonly Dictionary<String, object> args;
 
-		public BodyPart(BodyPartType type, List<KeyValuePair<String, ReadableType<object>>> args) {
+		public BodyPart(BodyPartType type, Dictionary<String, object> args) {
 			this.type = type;
 			this.args = args;
 		}
