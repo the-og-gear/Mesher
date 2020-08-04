@@ -8,17 +8,14 @@ namespace Mesher {
 
 	class Program{
 		
-		static List<MeshConsumer> consumers = new List<MeshConsumer>();
+		public static List<MeshConsumer> consumers = new List<MeshConsumer>();
+		public static AnatomyProvider provider = new HardcodedAnatomyProvider();
 
 		static void Main(string[] args){
 			consumers.Add(new PrintConsumer());
 
 			// create some hardcoded bones
-			List<BodyPart> parts = new List<BodyPart> {
-				new BodyPart(new BoneBodyPartType(), new Dictionary<string, object>()),
-				new BodyPart(new BoneBodyPartType(), new Dictionary<string, object>()),
-				new BodyPart(new BoneBodyPartType(), new Dictionary<string, object>())
-			};
+			List<BodyPart> parts = provider.Get();
 			// generate them
 			List<Mesh> previous = new List<Mesh>();
 			Mesh total = new Mesh();
