@@ -2,18 +2,22 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Mesher.Geometry {
+namespace Mesher.Geometry
+{
 
-	class Face {
+	class Face
+	{
 
 		// counterclockwise
-		List<Vec3f> Vertices;
+		public List<Vec3f> Vertices { get; private set; }
 
-		public Face(List<Vec3f> vertices) {
+		public Face(List<Vec3f> vertices)
+		{
 			Vertices = vertices;
 		}
 
-		public override string ToString() {
+		public override string ToString()
+		{
 			return "Face{" + Vertices + "}";
 		}
 	}
